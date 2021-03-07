@@ -15,7 +15,10 @@ module.exports = function (config) {
         },
 
         webpack: {
-            watch: true
+            watch: true, // this value does not matter - it will be overridden in karma-webpack
+            devServer: {
+                port: 9877 // port is required.
+            }
         },
 
         port: 9876,
