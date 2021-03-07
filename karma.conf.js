@@ -24,11 +24,8 @@ module.exports = function (config) {
 
         autoWatch: true,
 
-        browsers: ["Chrome"],
-
         plugins: [
             "karma-jasmine",
-            "karma-chrome-launcher",
             "karma-jasmine-html-reporter",
             "karma-webpack"
         ]
